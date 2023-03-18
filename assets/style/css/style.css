@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+  --color-yellow: rgb(233, 246, 0);
+}
+
+ol,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+}
+
+.btn--small {
+}
+
+input:hover {
+  border: 2px solid red;
+}
+
+input::placeholder {
+  color: rgb(233, 246, 0);
+}
+
+.btn--color-yellow {
+}
+
+.title {
+}
+
+.title--primary {
+}
+
+.title-second {
+}
+
+.title--dark-mode {
+}
+
+/* header: begin */
+
+.header {
+  color: var(--color-yellow);
+}
+
+.box {
+  margin: 0 auto;
+  width: 600px;
+  height: 600px;
+  background-color: aqua;
+  border-radius: 8px;
+  display: none;
+}
+/* header: end */
